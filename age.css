@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bruno Ace', cursive;
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(112, 240, 240, 0.486);
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    border-radius: 20px;
+    margin: 100px;
+    width: 70vw;
+    align-items: center;
+}
+
+.title{
+    margin: 30px;
+    border-bottom: 2px solid red;
+    padding: 10px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    margin: 20px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    margin: 0px 10px;
+}
+
+.content button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.content button:hover{
+    background-color: orange;
+    font-weight: bold;
+}
+
+input[type="date"]{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(126, 8, 8, 0.849);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 2px inset;
+    color: white;
+    margin: 0px 10px;
+}
+
+.age{
+    display: flex;
+    margin: 5px 30px;
+}
+
+.date{
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
